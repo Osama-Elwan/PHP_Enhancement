@@ -28,7 +28,7 @@ if(!empty($filename)){
         file_get_contents('compress.bzip2://' . __DIR__ . '/../data/' . $filename),
         true
     )['results'];
-    var_dump($data);
+    // var_dump($data);
 }
 ?>
 

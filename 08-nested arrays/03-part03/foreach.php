@@ -41,8 +41,8 @@
                 'Numbers in Arabic',
                     'Arabic Culture',
                     'Arabic Pronunciation', 
-                    'Traveling in Arabic-Speaking Countries
-                ']
+                    'Traveling in Arabic-Speaking Countries'
+                    ]
         ],
         [
             'title' => 'English for Beginners',
@@ -62,6 +62,12 @@
 
     // foreach ($courses[2]['topics'] as $topic) {
     //     var_dump($topic);
+    // }
+    // foreach($courses AS $course){
+    // foreach($course['topics'] AS $value){
+        
+    //     var_dump($value);
+    // }
     // }
     $englishCourse = $courses[2];
     foreach ($englishCourse['topics'] as $topic) {
